@@ -39,7 +39,7 @@ def handle_client(client_socket, client_address):
         # 1. 接收用户名
         username = client_socket.recv(1024).decode()
         clients[client_socket] = username
-        print(f"{username} 上线了")
+        print(f"{username} 上线了！")
 
         # 通知其他人
         broadcast(f"【系统】{username} 进入了聊天室", client_socket)
