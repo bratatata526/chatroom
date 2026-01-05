@@ -9,8 +9,8 @@ def receive_message(client_socket):
                 print(message.decode())
         except:
             break
-
-# =============== 客户端启动 ===============
+dddddd
+# =============== 客户端启动 ===================
 username = input("请输入你的用户名：")
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
